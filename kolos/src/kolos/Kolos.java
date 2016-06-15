@@ -1,7 +1,12 @@
 package kolos;
 
 public class Kolos {
-    //Metoda zliczajaca ilosc samochodow
+    /**
+     * Metoda zliczajaca ilosc samochodow
+     * 
+     * @param A tablica zawierajaca ilosc samochodow na drodze
+     * @return 
+     */
     public static int count(int[] A) 
     {
         int countZero = 0;
@@ -27,7 +32,9 @@ public class Kolos {
     }
     
     public static void main(String[] args) {
-       
+       int A[] = {0,1,0,1,1};
+       int countA = count(A);
+       System.out.println(countA);
     }
     
 }
